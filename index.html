@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="/fonts/font-awesome/css/font-awesome.min.css">
+    <title>Bootstrap 4 Web Site</title>
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-lg  bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="img/logo.png" alt="Fazt" class="w-25" >
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                  <a class="nav-link px-3" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-3 " href="#">Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-3 " href="#">Contact</a>
+                </li>
+                
+              </ul>
+            </div>
+        </div>
+      </nav>
+
+
+    <!-- HEADER -->
+    <header class="main-header">
+        <div class="background-overlay text-white py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center justify-content-center align-self-center">
+                        <h1>This is title or phrase related to the product</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, vel!</p>
+                        <a href="#" class="btn btn-outline-secondary btn-lg text-white">Read More</a>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="img/product.jpg" alt="Imagen del producto" class="img-fluid  w-50 d-none d-sm-block">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- NEWSLETTER -->
+    <section class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <input type="text" class="form-control form-control-lg" placeholder="Enter your Name">
+                </div>
+                <div class="col-md-4">
+                    <input type="email" class="form-control form-control-lg" placeholder="Enter your Email">
+
+                </div>
+                <div class="col-md-4">
+                    <button class="btn btn-primary btn_newsletter btn-lg btn-block">
+                        Subscribe
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FEATURES -->
+        <section class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card text-center features-card2">
+                            <div class="card-body">
+                                <h3>Feature One</h3>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card text-center features-card text-white">
+                            <div class="card-body">
+                                <h3>Feature Two</h3>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card text-center features-card2">
+                            <div class="card-body">
+                                <h3>Feature Three</h3>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card text-center features-card text-white ">
+                            <div class="card-body">
+                                <h3>Feature Four</h3>
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- ABOUT -->
+        <section class="bg-light text-center">
+            <div class="container ">
+                <div class="row">
+                    <div class="m-5">
+                        <h3>Why this Product</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam optio reprehenderit distinctio quis, ex neque. Accusantium aut minima sed eius reiciendis autem, numquam commodi enim?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- ACORDION -->
+    <section class="container text-center">
+            <div id="accordion">
+                    <div class="card">
+                      <div class="card-header " id="headingOne">
+                        <h5 class="mb-0 text-white" >
+                          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Question1
+                          </button>
+                        </h5>
+                      </div>
+                  
+                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, fugiat?
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Question 2
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Question 3
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+    </section>
+
+    <!-- TEAM -->
+
+    <section class="team text-center">
+        <div class="container py-5">
+            <h1 class="text-white">Team</h1>
+            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, ex?</p>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="/img/person.png" class="img-fluid  rounded-circle  w-50" alt="">
+                            <h3>John Cartet</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="p5">
+                                    <a href="http://facebook.com" target="_blank">
+                                        <i class="fa fa-facebook-f px-3"></i>   
+                                    </a>
+                                    <a href="http://facebook.com" target="_blank">
+                                        <i class="fa fa-instagram px-3"></i>   
+                                    </a>
+                                    <a href="http://facebook.com" target="_blank">
+                                        <i class="fa fa-twitter px-3"></i>  
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="/img/person.png"class="img-fluid  rounded-circle   w-50" alt="">
+                            <h3>John Cartet</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="p5">
+                                    <a href="http://facebook.com" target="_blank">
+                                        <i class="fa fa-facebook-f px-3"></i>   
+                                    </a>
+                                    <a href="http://facebook.com" target="_blank">
+                                        <i class="fa fa-instagram px-3"></i>   
+                                    </a>
+                                    <a href="http://facebook.com" target="_blank">
+                                        <i class="fa fa-twitter px-3"></i>  
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="/img/person.png"class="img-fluid  rounded-circle   w-50" alt="">
+                            <h3>John Cartet</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="p5">
+                                    <a href="http://facebook.com" target="_blank">
+                                        <i class="fa fa-facebook-f px-3"></i>   
+                                    </a>
+                                    <a href="http://facebook.com" target="_blank">
+                                        <i class="fa fa-instagram px-3"></i>   
+                                    </a>
+                                    <a href="http://facebook.com" target="_blank">
+                                        <i class="fa fa-twitter px-3"></i>  
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="/img/person.png"class="img-fluid  rounded-circle   w-50" alt="">
+                            <h3>John Cartet</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur.</p>
+                            <div class="d-flex flex-row justify-content-center">
+                                <div class="p5">
+                                    <a href="http://facebook.com" target="_blank">
+                                        <i class="fa fa-facebook-f px-3"></i>   
+                                    </a>
+                                    <a href="http://facebook.com" target="_blank">
+                                        <i class="fa fa-instagram px-3"></i>   
+                                    </a>
+                                    <a href="http://facebook.com" target="_blank">
+                                        <i class="fa fa-twitter px-3"></i>  
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACT -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <h3>Contact</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <form action="">
+                        <div class="input-group mb-3" >
+                            <div class="input-group-prepend">
+                                    <i class="fa fa-user input-group-text"></i> 
+                            </div>
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="input-group mb-3" >
+                            <div class="input-group-prepend">
+                                <i class="fa fa-envelope input-group-text"></i> 
+                            </div>
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="input-group mb-3" >
+                            <div class="input-group-prepend">
+                                <i class="fa fa-pencil input-group-text"></i> 
+                            </div>
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Write Your Mensage" class="form-control"></textarea>
+                        </div>
+                        <button class="btn btn-primary btn-lg btn-block">
+                            Send Your Mensagge
+                        </button>
+
+
+                    </form>
+                </div>
+                <div class="col-lg-3 align-self-center w-50 d-none d-lg-block">
+                    <img src="img/logo.png" alt="" >
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="container">
+            <p class="footer-text text-center">Copyrigth &copy; 2018</p>
+        </div>
+    </footer>
+    <!-- BOOTSTRAP JAVASCRIPT -->
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="css/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
